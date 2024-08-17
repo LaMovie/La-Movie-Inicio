@@ -63,10 +63,10 @@ Music.addEventListener('click', function(){
          <!-- BUSCADOR -->
 
    Search.addEventListener('click', function() {
-  if(Fill.style.display == 'block') {
-     Fill.style.display = 'none';
+  if(Filtro.style.display == 'block') {
+     Filtro.style.display = 'none';
   } else {
-     Fill.style.display = 'block';
+     Filtro.style.display = 'block';
   }
 });     
 

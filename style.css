@@ -225,7 +225,7 @@ header .menu{
     color: blue;
 }
 #Fill {
-    display: none;
+    display: block;
 }
 #Filtro {
     left: 0vh;
@@ -234,6 +234,7 @@ header .menu{
     width: 100%;
     height: 90vh;    
     z-index: 6666;
+    display: none;
     transform: none;
     position: fixed;
     border: 1px solid gray;

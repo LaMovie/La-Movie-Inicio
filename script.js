@@ -104,8 +104,6 @@ function Links(iframe) {
       Video.load();
       Video.play();
 }
-const IFE = document.querySelector('#Filtro');
-IFE.contentWindow.postMessage('{"event":"command","func":"mute","args":""}', '*');
 
 
 

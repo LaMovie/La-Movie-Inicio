@@ -104,9 +104,7 @@ function Links(iframe) {
       Video.load();
       Video.play();
 }
-const IFE = document.querySelector('#Filtro');
-const audio = IFE.contentWindow.document.querySelector('audio');
-audio.pause();
+
 
 
 

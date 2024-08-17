@@ -196,7 +196,7 @@ header .menu{
   font-size: 20px;
   font-weight: bold;
   cursor: pointer;
-  background: red; 
+  background: gold; 
   border-radius: 50%;
   text-content: center;
  &:hover {

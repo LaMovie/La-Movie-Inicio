@@ -275,7 +275,7 @@ header .menu{
  }
 }
 #Container:hover img:not(:hover){
-     filter: grayscale(1) blur(1px);
+     filter: contrast(100%) saturate(80%); 
 }
 #Container::-webkit-scrollbar {
     width: 0px;

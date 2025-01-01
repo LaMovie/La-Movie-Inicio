@@ -275,7 +275,7 @@ header .menu{
  }
 }
 #Container:hover img:not(:hover){
-     filter: grayscale(1) blur(5px);
+     filter: grayscale(1) blur(1px);
 }
 #Container::-webkit-scrollbar {
     width: 0px;
@@ -320,7 +320,7 @@ footer{
 }
 .Otros:hover img:not(:hover) {
     scale: .8;
-    filter: grayscale(1) blur(5px);
+    filter: grayscale(1) blur(1px);
 }
 #Blue {
     text-align: center;

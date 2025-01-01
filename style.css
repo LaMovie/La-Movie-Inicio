@@ -320,7 +320,7 @@ footer{
 }
 .Otros:hover img:not(:hover) {
     scale: .8;
-    filter: grayscale(1) blur(1px);
+    filter: grayscale(1) saturate(80%);
 }
 #Blue {
     text-align: center;

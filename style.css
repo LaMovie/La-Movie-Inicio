@@ -272,7 +272,12 @@ header .menu{
  &:hover {
      transform: perspective(200px)rotateY(45deg);
      padding-left: 5%;
+     filter: saturate(150%);
+     scale: 120%;
  }
+}
+#Container img:hover + h4 {
+     color: #4f9;
 }
 #Container:hover img:not(:hover){
      filter: opacity(70%) saturate(80%); 

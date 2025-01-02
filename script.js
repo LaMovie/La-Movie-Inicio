@@ -105,28 +105,6 @@ function Links(iframe) {
       Video.play();
 }
 
-function galleryImg() {
-  var gallery = document.querySelector('.Container');
-  var images = gallery.querySelectorAll('.N');
-  var scrollCenter = gallery.scrollLeft + gallery.offsetWidth / 2;
-
-  images.forEach(function(image) {
-    var imageCenter = image.offsetLeft + image.offsetWidth / 2;
-
-    var distanceFromCenter = Math.abs(scrollCenter - imageCenter);
-    var scale = 1 - distanceFromCenter / 1000;
-
-    image.style.transform = 'scale(' + scale + ')';
-
-    if (scale > 1) {
-      image.classList.add('centered');
-    } else {
-      image.classList.remove('centered');
-    }
-  });
-}
-
-
 
 
 

@@ -332,6 +332,9 @@ footer{
     text-align: center;
     list-style: none;
 }
+#Blue li:hover {
+    scale: 1.2;
+}
 #Blue li a {
     background: linear-gradient(to right, red, blue);
     background-clip: text;

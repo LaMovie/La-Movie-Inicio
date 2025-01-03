@@ -24,8 +24,8 @@ header{
     z-index: 9990;
 }
 header .logo{
-    Top: -87vh;
-    left: -83vh;
+    Top: -85vh;
+    left: -80vh;
     scale: 10%;
     font-weight: bold;
     position: fixed;

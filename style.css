@@ -25,7 +25,7 @@ header{
 }
 header .logo{
     Top: -95vh;
-    left: -75vh;
+    left: -50vh;
     scale: 10%;
     font-weight: bold;
     position: fixed;

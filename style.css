@@ -41,6 +41,8 @@ header .menu{
     justify-content: center;
     gap: 20px;
     font-weight: 500;
+    border-radius: 20px;
+    background: rgb(0,0,0, .5);
 }
 /* css slider */
 .slider{
@@ -224,6 +226,11 @@ header .menu{
 @keyframes Logo {
     from {scale: 10%;}
     to {scale: 9%;}
+}
+#Search {
+    width: 80%;
+    border-radius: 50px;
+    background: rgb(0,0,0, .5);
 }
 #Search:hover {
     color: blue;

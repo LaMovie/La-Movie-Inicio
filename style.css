@@ -26,7 +26,7 @@ header{
 header .logo{
     0
     Top: 1vh;
-    left: -77vh;
+    left: -75vh;
     scale: 10%;
     font-weight: bold;
     position: fixed;
@@ -236,7 +236,7 @@ header .menu{
     width: 80%;
     border-radius: 50px;
     position: fixed;
-    left: 50vh;
+    left: 40vh;
     z-index: 9999;
     background: rgb(0,0,0, .5);
 }

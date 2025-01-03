@@ -24,7 +24,7 @@ header{
     z-index: 9999;
 }
 header .logo{
-    Top: 1vh;
+    Top: -30vh;
     left: -75vh;
     scale: 10%;
     font-weight: bold;
@@ -234,7 +234,7 @@ header .menu{
     width: 80%;
     border-radius: 50px;
     position: fixed;
-    left: 40vh;
+    left: 50vh;
     z-index: 9999;
     background: rgb(0,0,0, .5);
 }

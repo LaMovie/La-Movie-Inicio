@@ -26,7 +26,7 @@ header{
 header .logo{
     0
     Top: 1vh;
-    left: -80vh;
+    left: -77vh;
     scale: 10%;
     font-weight: bold;
     position: fixed;
@@ -34,6 +34,7 @@ header .logo{
     z-index: 9999;
 }
 header .menu{
+    scale: 110%;
     padding: 0;
     margin: 0;
     list-style: none;

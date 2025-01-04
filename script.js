@@ -105,6 +105,9 @@ function Links(iframe) {
       Video.play();
 }
 
+var ifram = document.getElementById("Fondo");
+  ifram.contentWindow.postMessage('{"event":"command","func":"muteVideo"}', '*');
+
 
 
 
